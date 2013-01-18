@@ -44,7 +44,7 @@ namespace Telerik.RazorConverter.Razor.Converters
 
             if(node.Children.Any())
             {
-                var start = new RazorTextNodeFactory().CreateTextNode("@if (IsSectionDefined(\"" + contentPlaceHolderID + "\")) {\n RenderSection(\"" + contentPlaceHolderID + "\");\n}\nelse {\n");
+                var start = new RazorTextNodeFactory().CreateTextNode("@if (IsSectionDefined(\"" + contentPlaceHolderID + "\")) {\n @RenderSection(\"" + contentPlaceHolderID + "\");\n}\nelse {\n");
                 convertedChildren.Add(start);
 
                 foreach (var childNode in node.Children)
