@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{8C7D4819-0256-4CFC-9F3D-00CFB7A41D0F}"
+	ProjectSection(SolutionItems) = preProject
+		References\Moq.dll = References\Moq.dll
+		References\Moq.xml = References\Moq.xml
+		References\xunit.dll = References\xunit.dll
+		References\xunit.extensions.dll = References\xunit.extensions.dll
+		References\xunit.extensions.xml = References\xunit.extensions.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.RazorConverter", "Telerik.RazorConverter\Telerik.RazorConverter.csproj", "{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestItems", "TestItems", "{02F8810D-BE2D-4D6E-9EF7-7A7DBA8502A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4DA0538-E425-4E71-A508-0D024B125043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoTemplateConverter", "UmbracoTemplateConverter\UmbracoTemplateConverter.csproj", "{5EE17102-191C-48A6-8854-CC7BFC635D74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{88630458-D5BE-43B0-A7FB-BC0DFE6CB62E}.Release|x86.ActiveCfg = Release|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5EE17102-191C-48A6-8854-CC7BFC635D74}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
