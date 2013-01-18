@@ -29,8 +29,12 @@ Then register the usercontrol in the /config/dashboard.config file like so:
         /usercontrols/ConverterDashboard.ascx
     </control>
 
- Then open the dashboard in Umbraco, and click the convert button, and you're done.
+Then open the dashboard in Umbraco, and click the convert button, and you're done.
  
- You will probably need to go through some of the templates to sort of the areas where the converter
- didnt do things properly, there are areas it cannot handle good enough, but non of your templates
- are lost, they are still in the /masterpages folder for reference. 
+You will probably need to go through some of the templates to sort of the areas where the converter
+didnt do things properly, there are areas it cannot handle good enough, but non of your templates
+are lost, they are still in the /masterpages folder for reference. 
+
+## Known issues
+Rendering multipl asp:content sections on a page mistakenly nests the outputted @RenderSection() helpes
+and leaves the closing asp:content element on the page, but is fairly easy to clean-up.
